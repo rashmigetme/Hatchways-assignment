@@ -1,0 +1,45 @@
+.student-data-container {
+  border: 0.5px solid  grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-height: 550px;
+
+  border-radius: 2px;
+  background-color: white;
+  
+}
+
+.student-data-container img {
+  border: 0.5px solid gray;
+  border-radius: 50%;
+}
+
+
+ button{
+ border: none;
+ background-color: white;
+ color: gray;
+ }
+  
+.outerContainer{
+  background-color: aliceblue;
+  width:600px;
+  border-radius: 5px;
+  border-color: gray;
+  overflow-y: scroll;
+  font-size: small;
+  justify-content: left;  
+  margin-left: auto;
+  margin-right: auto;
+}
+.nameSection{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content:right;
+  align-items: flex-start;
+}
+.StudentDetails{
+  margin: 15px;
+ text-align: justify;
+}

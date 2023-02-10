@@ -1,0 +1,30 @@
+body {
+  background-color: #ededed;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.frame-container {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.frame {
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  background-color: white;
+  width: 1000px;
+  height: 600px;
+}
+
